@@ -1,1 +1,24 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludar Botón</title>
+</head>
+<body>
+    <h1>Botón de Saludo</h1>
+    <button id="saludarButton">Saludar</button>
+
+    <script>
+        // Función para manejar el evento de clic en el botón
+        function saludar() {
+            alert('¡Hola! ¡Bienvenido!');
+        }
+
+        // Asignar la función al evento de clic del botón
+        const botonSaludar = document.getElementById('saludarButton');
+        botonSaludar.addEventListener('click', saludar);
+    </script>
+</body>
+</html>
