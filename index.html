@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludar Botón</title>
+    <script src="eventos.js"></script>
+    <style>
+       
+        .boton-container {
+            padding: 5px;
+            background-color: green;
+            display: inline-block; 
+        }
 
+       
+        #saludarButton {
+            font-size: 16px;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: green;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Botón de Saludo</h1>
+    <div class="boton-container">
+            <button id="saludarButton" onclick="alert('¡Hola!')">Saludar</button>
+
+    </div>
+</body>
+</html>
